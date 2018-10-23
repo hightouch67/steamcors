@@ -1,0 +1,24 @@
+{
+  "name": "steam-cors",
+  "description": "Simple Connect / Express Steam cors.",
+  "author": "hightouch",
+  "version": "0.1.7",
+  "keywords": [
+    "cors",
+    "login",
+    "steam",
+    "user"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "homepage": "http://github.com/cpancake/steam-login",
+  "devDependencies": {
+    "express-session": "^1.10.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
