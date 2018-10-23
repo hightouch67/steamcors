@@ -27,6 +27,5 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.text());
 
 
-var port = 4000;
 app.listen(port, () => console.log(`Listening on ${port}`));
 console.log('Listening on port ' + port);
